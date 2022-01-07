@@ -1,0 +1,358 @@
+
+@media all and (min-width: 5px) and (max-width:640px){
+
+.logoBar {
+    height: 60px;
+}
+    
+.logo{
+    font-size: 10px;
+    padding-top: 2px;
+}
+
+.logo p{
+    letter-spacing: 4px;
+}
+
+.nav-links{
+    font-size: 10px;
+    }
+.navBar {
+right: 20px;
+}
+
+/*---------- main first image -----------*/
+.portfolio-section{
+    width: 100%;
+    min-height: 100%;
+    }
+
+.main_image {
+margin-top: 12%;
+}
+
+.main {
+    max-height: 75%;
+}
+    
+/*------------------------ SUBTITULOS PORTFOLIO ---------------------------*/
+.portfolio-subtitle{
+    margin-top: 0%;
+    width: 100%;
+}
+
+.portfolio-subtitle p{
+    font-size: 10px;
+}
+
+/*------------------------ TITULO ---------------------------*/
+.portfolio-title{
+    font-size: 18px;
+}
+
+.portfolio-title p{
+    font-size: 10px;
+}
+
+/*------------------------ GALLERY ---------------------------*/
+
+.img-container img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.6s ease-out;
+    cursor: pointer;
+  }
+
+.modal p{
+    font-size: 12px;
+  }
+  
+  .full-img{
+    position: absolute;
+    height: 30%;
+  }
+
+/*------------------------ SUBTITULOS ABOUT ---------------------------*/
+.about-subtitle{
+    margin-top: 0%;
+    width: 100%;
+}
+
+.about-subtitle p{
+    font-size: 10px;
+}
+
+/*------------------------ TITULO ABOUT ---------------------------*/
+.about-section{
+    min-height: 30vh;      
+}
+
+.about-title{
+    font-size: 18px;
+}
+
+.about-title p{
+    font-size: 10px;
+}
+
+.text_about_me p{
+    font-size: 8px;
+  }
+
+  /*------------------ CONTACT -------------------*/
+.contact-subtitle{
+    margin-top: 0%;
+    width: 100%;
+}
+
+.contact-subtitle p{
+    font-size: 10px;
+}
+
+/*------------------------ TITULO ---------------------------*/
+.contact-title{
+    font-size: 18px;
+}
+
+.contact-title p{
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+/*CONTACTO*/
+.contact-section{
+    min-height: 30vh;      
+}
+
+/* icones redes*/
+#insta,
+#email,
+#linkedin,
+#behance {
+  font-size: 30px;
+  margin: 0 15px;
+}
+}
+
+@media screen and (min-width: 640px) and (max-width:888px){
+    .nav-links{
+    font-size: 10px;
+    }
+
+    .navBar {
+        right: 20px;
+    }
+   
+    .main_image {
+    object-fit: cover; 
+    width: 70vw; 
+    margin-top: 15%;
+    margin-bottom: 6%;
+    margin-right: 5%;
+    margin-left: 15%;
+    }
+
+    .portfolio-section{
+    width: 100%;
+    min-height: 100%;
+    }
+
+/*------------------------ SUBTITULOS ---------------------------*/
+.portfolio-subtitle{
+    margin-top: 0%;
+    width: 100%; 
+}
+
+.portfolio-subtitle p{
+    font-size: 14px;
+}
+
+/*------------------------ TITULO ---------------------------*/
+.portfolio-title{
+    font-size: 25px;
+}
+
+.portfolio-title p{
+    font-size: 14px;
+}
+
+/*------------------------ GALLERY ---------------------------*/
+.modal p{
+    font-size: 14px;
+  }
+  
+  .full-img{
+    position: absolute;
+    height: 40%;
+  }
+/*------------------------ SUBTITULOS ABOUT ---------------------------*/
+.about-subtitle{
+    margin-top: 0%;
+    width: 100%;
+}
+
+.about-subtitle p{
+    font-size: 14px;
+}
+
+/*------------------------ TITULO ---------------------------*/
+.about-title{
+    font-size: 25px;
+}
+
+.about-title p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.text_about_me p{
+    font-size: 12px;
+  }
+
+  /*------------------ CONTACT -------------------*/
+  .contact-subtitle{
+    margin-top: 0%;
+    width: 100%;
+}
+
+.contact-subtitle p{
+    font-size: 14px;
+}
+
+/*------------------------ TITULO ---------------------------*/
+.contact-title{
+    font-size: 25px;
+}
+
+.contact-title p{
+    font-size: 14px;
+}
+
+/* icones redes*/
+#insta,
+#email,
+#linkedin,
+#behance {
+  font-size: 50px;
+  margin: 0 27px;
+}
+}
+
+@media screen and (min-width: 888px) and (max-width:1300px){  
+    .navBar {
+    right: 20px;
+}
+
+
+
+.logoBar {
+    height: 40px;
+}
+
+.logo{
+    font-size: 12px;
+    } 
+
+.main_image {
+    /* border-style: solid;
+    border-color: rgb(0, 68, 255);*/
+    width: 80vw; 
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+/* --------------PORTFOLIO--------------*/
+.portfolio-section{
+    width: 100%;
+    min-height: 100%;
+}
+
+.portfolio-container{
+    width: 92%;
+    display: block;
+}
+
+/*------------------------ SUBTITULOS ---------------------------*/
+.portfolio-subtitle{
+    margin-top: 0%;
+    width: 100%; 
+}
+
+.portfolio-subtitle p{
+    font-size: 17px;
+}
+
+/*------------------------ TITULO ---------------------------*/
+.portfolio-title{
+    font-size: 35px;
+}
+
+.portfolio-title p{
+    font-size: 17px;
+}
+
+/*------------------------ GALLERY ---------------------------*/
+.modal p{
+    font-size: 17px;
+  }
+  
+  .full-img{
+    position: absolute;
+    height: 50%;
+  }
+
+/*------------------------ SUBTITULOS ABOUT ---------------------------*/
+.about-subtitle{
+    margin-top: 0%;
+    width: 100%;
+}
+
+.about-subtitle p{
+    font-size: 17px;
+}
+
+/*------------------------ TITULO ---------------------------*/
+.about-title{
+    font-size: 35px;
+}
+
+.about-title p{
+    font-size: 17px;
+}
+
+.text_about_me p{
+    font-size: 15px;
+  }
+
+/*------------------ CONTACT -------------------*/
+.contact-subtitle{
+    margin-top: 0%;
+    width: 100%;
+}
+
+.contact-subtitle p{
+    font-size: 17px;
+}
+
+/*------------------------ TITULO ---------------------------*/
+.contact-title{
+    font-size: 35px;
+}
+
+.contact-title p{
+    font-size: 17px;
+}
+
+  /* icones redes*/
+  #insta,
+#email,
+#linkedin,
+#behance {
+  font-size: 70px;
+  margin: 0 30px;
+}
+}
+    
